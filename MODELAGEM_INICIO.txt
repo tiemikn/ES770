@@ -44,3 +44,51 @@ PAG. 34
 
 Adding Requirement Elements
 
+1.1	O sistema deve ser capaz de realizar a leitura analógica dos sensores IR
+1.2	O sistema deve ser capaz de converter as leituras dos sensores para digital
+1.3	O sistema deve ser capaz de encontrar o centro da linha por meio de slpine (mínimo quadrático)
+
+2.1	O sistema deve ser capaz de ler as velocidades dos motores
+2.2	O sistema deve ser capaz de controlar os motores por PWM a partir de dados de calibração
+2.3	O sistema deve possuir um controlador PID digital para ajustar o PWM dos motores
+
+3.1	O sistema deve possuir um controlador de direção capaz de gerenciar a trajetória mantendo a velocidade linear 
+	de referencia 
+
+
+Creating a Block Diagram
+
+main
+-
+
+sensor
+- void initSensor() 	// Liga IR
+- unsigned int uiGetSensorData(char cSensorID)	// Lê IR
+
+ADC
+- // TODO: ver semestre passado; VERIFICAR A SAÍDA DA LEITURA ANALOGICA; CUIDADO COM UNSIGNED INT 
+
+spline
+- int iGetCenter(uiSensor1, uiSensor2, uiSensor3, uiSensor4, uiSensor5, uiSensor6)
+
+speed
+- unsigned int uiGetSpeed(char cMotor) //aquisita a velocidade de cada roda [RPM]
+
+PWM
+- // TODO: ver semestre passado; VER COMO SETAR 2 PWM'S DIFERENTES 
+- void pwm_initPwm(unsigned char ucDevice)
+- void pwm_setDutyCycle(const unsigned int uiDutyCycle, unsigned char ucDevice) // MOTOR 1 OU 2 ucDevice 
+
+
+control
+- PID pInitPID(void)
+- void setPIDParameters(PID *pid, float fKP, float fKI, float fKD)
+- double dPIDUpdate (PID *pid, double dRef, double dSensorValue)
+
+
+
+
+
+
+
+

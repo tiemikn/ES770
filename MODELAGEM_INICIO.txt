@@ -1,0 +1,46 @@
+DIAGRAMA DE CASOS DE USO (UCD - Use Case Description) 
+
+PAG. 14
+
+The actors that interact with the system are:
+   -> 6 sensores de luz infravermelho 
+   -> 2 motores 
+   {-> sistema de controle (SPLINE + PID) 
+   -> conversor A/D }  
+
+The system function points are:
+   -> 6 sensores - detectam a pista
+   -> 2 motores - movem o carro sobre a pista  
+   {-> conversor A/D - converte o sinal 
+   -> sistema de controle - Controla o acionamento dos motores }
+    
+
+The actors interact with the system in the following ways:
+   -> Os sensores emitem e captam luz infravermelho gerando 
+      um sinal analógico de intensidade. 
+   -> Os motores recebem o sinal de controle do sistema e movem
+      o carrinho
+   {-> o conversor A/D  recebe o sinal analógico proveniente dos 
+       sensores e os converte em sinal digital 8 bits que será 
+       enviado ao PIC 
+   -> O sistema de controle recebe os sinais processa-os e gera 
+   uma saída (sinal de controle) enviado aos motores para seu 
+   acionamento } 
+
+
+PAG. 27 
+
+SUBCATEGORIAS 
+
+--> ACIONAMENTO DOS MOTORES
+	-> MOTOR ESQUERDO 
+	-> MOTOR DIREITO 
+
+--> LEITURA DOS SENSORES 
+	-> SENSORES DE 1 A 6 
+
+
+PAG. 34 
+
+Adding Requirement Elements
+

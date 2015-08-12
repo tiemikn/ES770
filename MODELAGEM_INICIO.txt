@@ -44,16 +44,15 @@ PAG. 34
 
 Adding Requirement Elements
 
-1.1	O sistema deve ser capaz de realizar a leitura analógica dos sensores IR
-1.2	O sistema deve ser capaz de converter as leituras dos sensores para digital
+1.1	O sistema deve ser capaz de converter as leituras analógicas dos sensores para digitais
+1.2	O sistema deve ser capaz de realizar a calibração da leitura dos sensores IR
 1.3	O sistema deve ser capaz de encontrar o centro da linha por meio de slpine (mínimo quadrático)
 
 2.1	O sistema deve ser capaz de ler as velocidades dos motores
 2.2	O sistema deve ser capaz de controlar os motores por PWM a partir de dados de calibração
-2.3	O sistema deve possuir um controlador PID digital para ajustar o PWM dos motores
 
-3.1	O sistema deve possuir um controlador de direção capaz de gerenciar a trajetória mantendo a velocidade linear 
-	de referencia 
+3.1	O sistema deve possuir um controlador PID digital para ajustar o PWM dos motores 
+	e um controlador de direção PI capaz de gerenciar a trajetória
 
 
 Creating a Block Diagram
@@ -62,28 +61,31 @@ main
 -
 
 sensor
-- void initSensor() 	// Liga IR
-- unsigned int uiGetSensorData(char cSensorID)	// Lê IR
+- void 		sensor_initSensor() 	// Liga IR
+- unsigned int 	sensor_getSensorData(char cSensorID)	// Lê IR
 
 ADC
-- // TODO: ver semestre passado; VERIFICAR A SAÍDA DA LEITURA ANALOGICA; CUIDADO COM UNSIGNED INT 
+- // TODO: VERIFICAR A SAÍDA DA LEITURA ANALOGICA;
+- adc_getValue()
+- adc_initAdc()
+- adc_isAdcDone()
+- adc_StartConvertion()
 
 spline
-- int iGetCenter(uiSensor1, uiSensor2, uiSensor3, uiSensor4, uiSensor5, uiSensor6)
+- int 	spline_getCenter(uiSensor1, uiSensor2, uiSensor3, uiSensor4, uiSensor5, uiSensor6) // Encontra o centro da linha
 
 speed
-- unsigned int uiGetSpeed(char cMotor) //aquisita a velocidade de cada roda [RPM]
+- unsigned int 	speed_getSpeed(unsigned char ucMotor) //aquisita a velocidade de cada roda [RPM]
 
 PWM
-- // TODO: ver semestre passado; VER COMO SETAR 2 PWM'S DIFERENTES 
-- void pwm_initPwm(unsigned char ucDevice)
-- void pwm_setDutyCycle(const unsigned int uiDutyCycle, unsigned char ucDevice) // MOTOR 1 OU 2 ucDevice 
+- void 	pwm_initPwm(unsigned char ucDevice)
+- void 	pwm_setDutyCycle(const unsigned int uiDutyCycle, unsigned char ucDevice) // MOTOR 1 OU 2 ucDevice 
 
 
 control
-- PID pInitPID(void)
-- void setPIDParameters(PID *pid, float fKP, float fKI, float fKD)
-- double dPIDUpdate (PID *pid, double dRef, double dSensorValue)
+- PID 		control_initPid(void)	// Cria um novo PID
+- void 		control_setPidParameters(PID *pid, double dKP, double dKI, double dKD)	// Define valores para as constantes do PID
+- double 	control_PidUpdate (PID *pid, double dRef, double dOutputValue)	// Pega a saída e atualiza o estado do PID
 
 
 

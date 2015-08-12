@@ -1,0 +1,19 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
+
+- filesTable = { IRPYRawContainer 
+	- size = 12;
+	- value = "ES770.rpy" ""
+	"ES770_rpy\\ADC.sbs" "ADC"
+	"ES770_rpy\\Controlador.sbs" "Controlador"
+	"ES770_rpy\\Default.sbs" "Default"
+	"ES770_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"ES770_rpy\\PWM.sbs" "PWM"
+	"ES770_rpy\\Sensor.sbs" "Sensor"
+	"ES770_rpy\\Spline.sbs" "Spline"
+	"ES770_rpy\\Velocidade.sbs" "Velocidade"
+	"ES770_rpy\\_Main.sbs" "_Main"
+	"ES770_rpy\\_Requisitos.sbs" "_Requisitos"
+	"Projects.rpl" ""
+	
+}
+

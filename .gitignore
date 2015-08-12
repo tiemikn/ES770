@@ -1,3 +1,8 @@
+# Rhapsody
+*.ehl
+*.rpw
+*.log
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

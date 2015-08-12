@@ -1,0 +1,199 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID dae78f43-4d58-477c-a555-f712bd469311;
+	- _myState = 8192;
+	- _name = "_Main";
+	- _objectCreation = "131631712242015114565813";
+	- _umlDependencyID = "2064";
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "Diag Pacotes";
+		- _id = GUID 1afffb2f-e36b-44ee-9f55-7f7bd15c2bf7;
+	}
+	- _lastID = 1;
+	- weakCGTime = 8.12.2015::4:22:31;
+	- strongCGTime = 8.12.2015::4:14:18;
+	- _defaultComposite = GUID d8c59e60-4886-4fb7-a06d-b1bdda4f03ca;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID d8c59e60-4886-4fb7-a06d-b1bdda4f03ca;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "131631912242015114563813";
+			- _umlDependencyID = "2391";
+			- weakCGTime = 12.31.1969::22:0:0;
+			- strongCGTime = 12.31.1969::22:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 3b625338-a8a7-43c4-b006-e35a96edaa68;
+			- _myState = 8192;
+			- _name = "es770";
+			- _objectCreation = "131632112242015114561813";
+			- _umlDependencyID = "1945";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Diag Blocos";
+				- _id = GUID 3ca6e712-0369-4872-8a93-c8c409edc908;
+			}
+			- weakCGTime = 8.12.2015::4:16:25;
+			- strongCGTime = 8.12.2015::4:14:51;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 6;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 78b6fc1f-76ca-48d1-a361-20938b6fa7f2;
+					- _myState = 10240;
+					- _name = "itsSensor";
+					- _objectCreation = "131632312242015114559813";
+					- _umlDependencyID = "2550";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Sensor.sbs";
+						- _subsystem = "Sensor";
+						- _class = "";
+						- _name = "sensor";
+						- _id = GUID 5ee37347-8298-4029-a40f-8a40ddf3abd7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID a17a04c5-61de-4f8b-a6dc-b454019f0095;
+					- _myState = 10240;
+					- _name = "itsSpline";
+					- _objectCreation = "131632512242015114557813";
+					- _umlDependencyID = "2535";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Spline.sbs";
+						- _subsystem = "Spline";
+						- _class = "";
+						- _name = "spline";
+						- _id = GUID 9d678a02-e7a1-43b2-abf0-11f12e75bf19;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 47ed8f92-5ec6-4c8e-884b-fee79fcffba5;
+					- _myState = 10240;
+					- _name = "itsControl";
+					- _objectCreation = "131632712242015114555813";
+					- _umlDependencyID = "2653";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Controlador.sbs";
+						- _subsystem = "Controlador";
+						- _class = "";
+						- _name = "control";
+						- _id = GUID 6be2b61d-4583-442e-a39d-829cf563632b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 707c9524-fc05-4d1d-a611-0deb43c09d59;
+					- _myState = 10240;
+					- _name = "itsSpeed";
+					- _objectCreation = "131632912242015114553813";
+					- _umlDependencyID = "2413";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "Velocidade.sbs";
+						- _subsystem = "Velocidade";
+						- _class = "";
+						- _name = "speed";
+						- _id = GUID df4b74aa-1877-48e1-bdf1-7142a789b8e5;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID ad7a9648-0b5a-4d87-9531-7eccc7a00df3;
+					- _myState = 10240;
+					- _name = "itsAdc";
+					- _objectCreation = "131633112242015114551813";
+					- _umlDependencyID = "2171";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "ADC.sbs";
+						- _subsystem = "ADC";
+						- _class = "";
+						- _name = "adc";
+						- _id = GUID 8cf449cc-13c1-4b2a-88f6-3191488da6a6;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 778a7088-bad7-4e0d-aa09-c622262adc12;
+					- _myState = 10240;
+					- _name = "itsPwm";
+					- _objectCreation = "131633312242015114549813";
+					- _umlDependencyID = "2224";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "PWM.sbs";
+						- _subsystem = "PWM";
+						- _class = "";
+						- _name = "pwm";
+						- _id = GUID 35ad7446-58f8-498d-819c-e65602b07509;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 12.31.1969::22:0:0;
+}
+

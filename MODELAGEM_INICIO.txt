@@ -89,6 +89,17 @@ control
 
 
 
+configurações iniciais
+inits iniciais
+
+ececutivo ciclico:
+- sensores
+- velocidade
+- centro de linha
+- PI                      z
+- PWM
+
+
 
 
 

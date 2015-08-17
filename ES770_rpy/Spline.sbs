@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 	- _id = GUID 10297f87-8b16-4815-bc3a-9114bd4abe78;
 	- _myState = 8192;
 	- _name = "Spline";
-	- _objectCreation = "131623312242015114649813";
-	- _umlDependencyID = "2199";
+	- _objectCreation = "122556817152015143565812";
+	- _umlDependencyID = "2212";
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "";
@@ -14,7 +14,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		- _id = GUID 1afffb2f-e36b-44ee-9f55-7f7bd15c2bf7;
 	}
 	- _lastID = 1;
-	- weakCGTime = 8.12.2015::4:23:0;
+	- weakCGTime = 8.17.2015::17:7:36;
 	- strongCGTime = 8.12.2015::3:32:43;
 	- _defaultComposite = GUID a5133c14-298d-4d2d-8933-ef72e93592b8;
 	- _eventsBaseID = -1;
@@ -25,10 +25,10 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _id = GUID a5133c14-298d-4d2d-8933-ef72e93592b8;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _objectCreation = "131623512242015114647813";
-			- _umlDependencyID = "2391";
-			- weakCGTime = 12.31.1969::22:0:0;
-			- strongCGTime = 12.31.1969::22:0:0;
+			- _objectCreation = "122557017152015143563812";
+			- _umlDependencyID = "2395";
+			- weakCGTime = 8.12.2015::4:23:0;
+			- strongCGTime = 8.12.2015::3:32:43;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -39,18 +39,18 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _id = GUID 9d678a02-e7a1-43b2-abf0-11f12e75bf19;
 			- _myState = 8192;
 			- _name = "spline";
-			- _objectCreation = "131623712242015114645813";
-			- _umlDependencyID = "2231";
+			- _objectCreation = "122557217152015143561812";
+			- _umlDependencyID = "2235";
 			- Stereotypes = { IRPYRawContainer 
 				- size = 1;
 				- value = 
 				{ IHandle 
 					- _m2Class = "IStereotype";
-					- _filename = "PredefinedTypes.sbs";
-					- _subsystem = "PredefinedTypes";
+					- _filename = "PredefinedTypesC++.sbs";
+					- _subsystem = "PredefinedTypesCpp";
 					- _class = "";
-					- _name = "Task";
-					- _id = GUID 1240bd69-8e8e-4180-a986-e2e200d327de;
+					- _name = "Subsystem";
+					- _id = GUID 4ea1c1da-7dc6-4a35-bc5a-313393e8408f;
 				}
 			}
 			- _theMainDiagram = { IHandle 
@@ -62,8 +62,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				- _id = GUID 3ca6e712-0369-4872-8a93-c8c409edc908;
 			}
 			- _lastID = 1;
-			- weakCGTime = 8.12.2015::4:13:17;
-			- strongCGTime = 8.12.2015::3:34:44;
+			- weakCGTime = 8.17.2015::17:7:36;
+			- strongCGTime = 8.17.2015::17:7:36;
 			- Operations = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -71,8 +71,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					- _id = GUID 62658c44-b685-4e85-b960-93e1b871efe8;
 					- _myState = 8192;
 					- _name = "spline_getCenter";
-					- _objectCreation = "131623912242015114643813";
-					- _umlDependencyID = "3255";
+					- _objectCreation = "122557417152015143559812";
+					- _umlDependencyID = "3268";
 					- _lastID = 6;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -81,8 +81,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						{ IArgument 
 							- _id = GUID f1fd0eee-5f99-456c-81d0-5239f4d92e11;
 							- _name = "uiSensor1";
-							- _objectCreation = "131624112242015114641813";
-							- _umlDependencyID = "2476";
+							- _objectCreation = "122557617152015143557812";
+							- _umlDependencyID = "2498";
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -97,8 +97,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						{ IArgument 
 							- _id = GUID 8329b591-9c02-4ed0-a2a4-dd802c079f27;
 							- _name = "uiSensor2";
-							- _objectCreation = "131624312242015114639813";
-							- _umlDependencyID = "2486";
+							- _objectCreation = "122557817152015143555812";
+							- _umlDependencyID = "2499";
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -113,8 +113,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						{ IArgument 
 							- _id = GUID 23d6471a-9669-4290-9d56-64a94e00afa6;
 							- _name = "uiSensor3";
-							- _objectCreation = "131624512242015114637813";
-							- _umlDependencyID = "2487";
+							- _objectCreation = "122558017152015143553812";
+							- _umlDependencyID = "2491";
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -129,8 +129,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						{ IArgument 
 							- _id = GUID 8a2b91d9-b34a-4a91-84be-323bc9a48fd7;
 							- _name = "uiSensor4";
-							- _objectCreation = "131624712242015114635813";
-							- _umlDependencyID = "2488";
+							- _objectCreation = "122558217152015143551812";
+							- _umlDependencyID = "2492";
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -145,8 +145,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						{ IArgument 
 							- _id = GUID dd63c8c6-ea37-492c-bf4f-0b1dc097c745;
 							- _name = "uiSensor5";
-							- _objectCreation = "131624912242015114633813";
-							- _umlDependencyID = "2489";
+							- _objectCreation = "122558417152015143549812";
+							- _umlDependencyID = "2502";
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -161,8 +161,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						{ IArgument 
 							- _id = GUID 8006d43d-ed86-4920-9651-33e63d2a1093;
 							- _name = "uiSensor6";
-							- _objectCreation = "131625112242015114631813";
-							- _umlDependencyID = "2481";
+							- _objectCreation = "122558617152015143547812";
+							- _umlDependencyID = "2503";
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -198,6 +198,6 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _classModifier = Unspecified;
 		}
 	}
-	- _configurationRelatedTime = 12.31.1969::22:0:0;
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
 }
 

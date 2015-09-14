@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 	- _id = GUID e2b85334-cb31-4f1a-bf3a-358432b6c79f;
 	- _myState = 139264;
 	- _name = "DefaultComponent";
-	- _objectCreation = "288546114120152327942828";
-	- _umlDependencyID = "3258";
+	- _objectCreation = "422467231820151723073842";
+	- _umlDependencyID = "3247";
 	- m_buildType = Executable;
 	- m_libraries = "";
 	- m_additionalSources = "";
@@ -15,8 +15,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		- _id = GUID bbe8d1a0-a2de-48b4-9551-2286bdbcc599;
 		- _myState = 73728;
 		- _name = "Files";
-		- _objectCreation = "288548114120152327940828";
-		- _umlDependencyID = "2101";
+		- _objectCreation = "422467431820151723071842";
+		- _umlDependencyID = "2090";
 		- m_path = "";
 		- Elements = { IRPYRawContainer 
 			- size = 0;
@@ -36,8 +36,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _id = GUID 81c03692-e3f0-4294-b392-cbdcda97194b;
 			- _myState = 8192;
 			- _name = "DefaultConfig";
-			- _objectCreation = "288550114120152327938828";
-			- _umlDependencyID = "2909";
+			- _objectCreation = "422467631820151723069842";
+			- _umlDependencyID = "2907";
 			- _scopeType = Explicit;
 			- _libraries = "";
 			- _additionalSources = "";
@@ -60,8 +60,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				- _id = GUID 5e45488e-c7eb-4048-84e1-b11f010f71af;
 				- _myState = 8192;
 				- _name = "DefaultConfig";
-				- _objectCreation = "288552114120152327936828";
-				- _umlDependencyID = "2909";
+				- _objectCreation = "422467831820151723067842";
+				- _umlDependencyID = "2907";
 				- m_path = "";
 				- Elements = { IRPYRawContainer 
 					- size = 0;
@@ -70,8 +70,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					- size = 0;
 				}
 			}
-			- weakCGTime = 12.31.1969::22:0:0;
-			- strongCGTime = 12.31.1969::22:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
 			- AnimScopeElements = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -79,7 +79,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		}
 	}
 	- HandlesInMe = { IRPYRawContainer 
-		- size = 1;
+		- size = 9;
 		- value = 
 		{ IHandle 
 			- _m2Class = "ISubsystem";
@@ -89,6 +89,70 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _name = "Default";
 			- _id = GUID 02efb595-d869-4681-b73b-4a1a306ce837;
 		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "_Requisitos.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "_Requisitos";
+			- _id = GUID ae560dc7-bccb-4476-98bc-ba024a874d93;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Sensor.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Sensor";
+			- _id = GUID 3df1c487-f77a-4f28-9fc0-eddce99582a6;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "ADC.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "ADC";
+			- _id = GUID a1380f6d-fa30-480d-ad24-300ff0b064e0;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Spline.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Spline";
+			- _id = GUID 10297f87-8b16-4815-bc3a-9114bd4abe78;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Velocidade.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Velocidade";
+			- _id = GUID e118c1dc-b783-4649-a46e-f17ade118872;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "PWM.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "PWM";
+			- _id = GUID 13a15a90-0649-49a2-8989-59a9134b8049;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Controlador.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Controlador";
+			- _id = GUID 429a8555-f477-4263-8eb9-746d4b068027;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "_Main.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "_Main";
+			- _id = GUID dae78f43-4d58-477c-a555-f712bd469311;
+		}
 	}
 	- VariationPoints = { IRPYRawContainer 
 		- size = 0;
@@ -97,6 +161,6 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		- size = 0;
 	}
 	- weakCGTime = 8.12.2015::2:41:28;
-	- strongCGTime = 12.31.1969::22:0:0;
+	- strongCGTime = 1.2.1990::0:0:0;
 }
 

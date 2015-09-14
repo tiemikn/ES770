@@ -27,29 +27,29 @@ void adc_initAdc(void);
 /* Method name: 	   adc_isAdcDone				*/
 /* Method description: verify if the AD convertion  */
 /*                     is done                      */
-/* Input params:	   n/a                          */
+/* Input params:	   cChannel                     */
 /* Outpu params:	   n/a 							*/
 /* ************************************************ */
-int adc_isAdcDone(void);
+char adc_isAdcDone(char cChannel);
 
 
 /* ************************************************ */
 /* Method name: 	   adc_startConvertion			*/
 /* Method description: start the AD convertion      */
-/* Input params:	   n/a                          */
+/* Input params:	   cChannel                     */
 /* Outpu params:	   n/a 							*/
 /* ************************************************ */
-void adc_startConvertion(void);
+void adc_startConvertion(char cChannel);
 
 
 /* ************************************************ */
 /* Method name: 	   adc_getValue					*/
 /* Method description: return the value after the   */
 /*                     AD convertion is done		*/
-/* Input params:	   n/a                          */
-/* Outpu params:	   n/a 							*/
+/* Input params:	   cChannel                     */
+/* Outpu params:	   uiValue						*/
 /* ************************************************ */
-unsigned int adc_getValue(void);
+unsigned int adc_getValue(char cChannel);
 
 
 #endif /* ADC_H */

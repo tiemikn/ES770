@@ -18,8 +18,8 @@
 #define PWM_DC_00		0
 #define PWM_INIT_DC		PWM_DC_00
 
-#define PWM_COOLER		0
-#define PWM_HEATER		1
+#define PWM_MT1		0
+#define PWM_MT2		1
 
 /* ************************************************ */
 /* Method name: 	   pwm_initPwm					*/

@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 	- _id = GUID e118c1dc-b783-4649-a46e-f17ade118872;
 	- _myState = 8192;
 	- _name = "Velocidade";
-	- _objectCreation = "122558817152015143545812";
-	- _umlDependencyID = "2601";
+	- _objectCreation = "422446831820151723277842";
+	- _umlDependencyID = "2608";
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "";
@@ -14,7 +14,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		- _id = GUID 1afffb2f-e36b-44ee-9f55-7f7bd15c2bf7;
 	}
 	- _lastID = 1;
-	- weakCGTime = 8.17.2015::17:14:17;
+	- weakCGTime = 8.31.2015::20:8:31;
 	- strongCGTime = 8.12.2015::3:38:57;
 	- _defaultComposite = GUID 35cf6ebe-69f1-48f8-bbb5-9452599d2161;
 	- _eventsBaseID = -1;
@@ -25,9 +25,9 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _id = GUID 35cf6ebe-69f1-48f8-bbb5-9452599d2161;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _objectCreation = "122559017152015143543812";
-			- _umlDependencyID = "2395";
-			- weakCGTime = 8.12.2015::4:23:10;
+			- _objectCreation = "422447031820151723275842";
+			- _umlDependencyID = "2402";
+			- weakCGTime = 8.17.2015::17:14:17;
 			- strongCGTime = 8.12.2015::3:38:57;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -39,17 +39,17 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _id = GUID df4b74aa-1877-48e1-bdf1-7142a789b8e5;
 			- _myState = 8192;
 			- _name = "speed";
-			- _objectCreation = "122559217152015143541812";
-			- _umlDependencyID = "2113";
+			- _objectCreation = "422447231820151723273842";
+			- _umlDependencyID = "2120";
 			- Dependencies = { IRPYRawContainer 
 				- size = 1;
 				- value = 
 				{ IDependency 
 					- _id = GUID 309fb8ab-1e01-4ac5-9fe1-0c84f5f532d5;
 					- _myState = 2048;
-					- _name = "Seguiddor_Map";
-					- _objectCreation = "122559417152015143539812";
-					- _umlDependencyID = "2908";
+					- _name = "SeguiddorMap";
+					- _objectCreation = "422447431820151723271842";
+					- _umlDependencyID = "2811";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -67,7 +67,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _filename = "_Main.sbs";
 						- _subsystem = "_Main";
 						- _class = "";
-						- _name = "Seguiddor_Map";
+						- _name = "SeguiddorMap";
 						- _id = GUID 039534db-3004-430c-992d-a671679b7754;
 					}
 				}
@@ -93,7 +93,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				- _id = GUID 3ca6e712-0369-4872-8a93-c8c409edc908;
 			}
 			- _lastID = 2;
-			- weakCGTime = 8.17.2015::17:14:22;
+			- weakCGTime = 8.31.2015::20:8:31;
 			- strongCGTime = 8.12.2015::3:39:24;
 			- Operations = { IRPYRawContainer 
 				- size = 1;
@@ -102,8 +102,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					- _id = GUID f76ec51f-5cef-4b21-b031-7a57859a0cb7;
 					- _myState = 8192;
 					- _name = "speed_getSpeed";
-					- _objectCreation = "122559617152015143537812";
-					- _umlDependencyID = "3034";
+					- _objectCreation = "422447631820151723269842";
+					- _umlDependencyID = "3041";
 					- _lastID = 1;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -112,8 +112,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						{ IArgument 
 							- _id = GUID 7ba47185-257b-42c8-90fb-f0bf1458a715;
 							- _name = "ucMotor";
-							- _objectCreation = "122559817152015143535812";
-							- _umlDependencyID = "2338";
+							- _objectCreation = "422447831820151723267842";
+							- _umlDependencyID = "2345";
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";

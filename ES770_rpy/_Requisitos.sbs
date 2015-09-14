@@ -3,16 +3,16 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 	- _id = GUID ae560dc7-bccb-4476-98bc-ba024a874d93;
 	- _myState = 8192;
 	- _name = "_Requisitos";
-	- _objectCreation = "4819615184720151621181848";
-	- _umlDependencyID = "2832";
+	- _objectCreation = "422440031820151723345842";
+	- _umlDependencyID = "2757";
 	- Annotations = { IRPYRawContainer 
 		- size = 6;
 		- value = 
 		{ IRequirement 
 			- _id = GUID 45f37c6b-f025-4a34-8a37-b011cf9e8b87;
 			- _name = "Requisito SENSOR";
-			- _objectCreation = "4819617184720151621179848";
-			- _umlDependencyID = "3105";
+			- _objectCreation = "422440231820151723343842";
+			- _umlDependencyID = "3021";
 			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
 \\viewkind4\\uc1\\pard\\fs20 O sistema deve ser capaz de realizar a calibra\\'e7\\'e3o da leitura dos sensores IR\\par
 }
@@ -22,8 +22,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		{ IRequirement 
 			- _id = GUID a652e65a-33ca-438e-8f9c-21ab2f27abac;
 			- _name = "Requisito SPLINE";
-			- _objectCreation = "4819619184720151621177848";
-			- _umlDependencyID = "3090";
+			- _objectCreation = "422440431820151723341842";
+			- _umlDependencyID = "3006";
 			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
 \\viewkind4\\uc1\\pard\\fs20 O sistema deve ser capaz de encontrar o centro da linha por interpola\\'e7\\'e3o polinomial (no m\\'ednimo quadr\\'e1tica)\\par
 }
@@ -33,16 +33,16 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		{ IRequirement 
 			- _id = GUID 28734fca-dfaa-4288-a1a1-20678a3cd439;
 			- _name = "Requisito VELOCIDADE";
-			- _objectCreation = "4819621184720151621175848";
-			- _umlDependencyID = "3342";
+			- _objectCreation = "422440631820151723339842";
+			- _umlDependencyID = "3276";
 			- _body = "O sistema deve ser capaz de computar as velocidades dos motores";
 			- reqID = "REQ2.1";
 		}
 		{ IRequirement 
 			- _id = GUID fbf0591d-0277-4953-a55f-5b79d9d8b9e9;
 			- _name = "Requisito PWM";
-			- _objectCreation = "4819623184720151621173848";
-			- _umlDependencyID = "2866";
+			- _objectCreation = "422440831820151723337842";
+			- _umlDependencyID = "2800";
 			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
 \\viewkind4\\uc1\\pard\\fs20 O sistema deve ser capaz de controlar os motores por PWM a partir de dados de calibra\\'e7\\'e3o\\par
 }
@@ -52,8 +52,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		{ IRequirement 
 			- _id = GUID 54b08e84-ec16-4967-b0cd-9bb444934cdb;
 			- _name = "Requisito CONTROLADOR";
-			- _objectCreation = "4819625184720151621171848";
-			- _umlDependencyID = "3461";
+			- _objectCreation = "422441031820151723335842";
+			- _umlDependencyID = "3386";
 			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
 \\viewkind4\\uc1\\pard\\fs20 O sistema deve possuir um controlador PID digital para ajustar o PWM dos motores, e um controlador de dire\\'e7\\'e3o PI capaz de gerenciar a trajet\\'f3ria\\par
 }
@@ -63,8 +63,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		{ IRequirement 
 			- _id = GUID dc071b90-1c9c-4e0b-883c-90954d25df73;
 			- _name = "Requisito ADC";
-			- _objectCreation = "4819627184720151621169848";
-			- _umlDependencyID = "2831";
+			- _objectCreation = "422441231820151723333842";
+			- _umlDependencyID = "2747";
 			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
 \\viewkind4\\uc1\\pard\\fs20 O sistema deve ser capaz de converter as leituras anal\\'f3gicas dos sensores para digitais\\par
 }
@@ -73,7 +73,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 		}
 	}
 	- _lastID = 6;
-	- weakCGTime = 8.18.2015::19:47:48;
+	- weakCGTime = 8.31.2015::20:8:42;
 	- strongCGTime = 8.12.2015::2:52:0;
 	- _defaultComposite = GUID 96226053-6888-442b-b45b-0370f61b27d4;
 	- _eventsBaseID = -1;
@@ -84,9 +84,9 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _id = GUID 96226053-6888-442b-b45b-0370f61b27d4;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _objectCreation = "4819629184720151621167848";
-			- _umlDependencyID = "2477";
-			- weakCGTime = 8.12.2015::3:35:28;
+			- _objectCreation = "422441431820151723331842";
+			- _umlDependencyID = "2393";
+			- weakCGTime = 8.18.2015::19:47:48;
 			- strongCGTime = 8.12.2015::2:52:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

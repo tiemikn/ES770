@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 	- _id = GUID 10297f87-8b16-4815-bc3a-9114bd4abe78;
 	- _myState = 8192;
 	- _name = "Spline";
-	- _objectCreation = "122556817152015143565812";
-	- _umlDependencyID = "2212";
+	- _objectCreation = "422444831820151723297842";
+	- _umlDependencyID = "2219";
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "";
@@ -25,9 +25,9 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _id = GUID a5133c14-298d-4d2d-8933-ef72e93592b8;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _objectCreation = "122557017152015143563812";
-			- _umlDependencyID = "2395";
-			- weakCGTime = 8.12.2015::4:23:0;
+			- _objectCreation = "422445031820151723295842";
+			- _umlDependencyID = "2402";
+			- weakCGTime = 8.17.2015::17:7:36;
 			- strongCGTime = 8.12.2015::3:32:43;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -39,8 +39,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _id = GUID 9d678a02-e7a1-43b2-abf0-11f12e75bf19;
 			- _myState = 8192;
 			- _name = "spline";
-			- _objectCreation = "122557217152015143561812";
-			- _umlDependencyID = "2235";
+			- _objectCreation = "422445231820151723293842";
+			- _umlDependencyID = "2242";
 			- Stereotypes = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -71,8 +71,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 					- _id = GUID 62658c44-b685-4e85-b960-93e1b871efe8;
 					- _myState = 8192;
 					- _name = "spline_getCenter";
-					- _objectCreation = "122557417152015143559812";
-					- _umlDependencyID = "3268";
+					- _objectCreation = "422445431820151723291842";
+					- _umlDependencyID = "3266";
 					- _lastID = 6;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
@@ -81,8 +81,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						{ IArgument 
 							- _id = GUID f1fd0eee-5f99-456c-81d0-5239f4d92e11;
 							- _name = "uiSensor1";
-							- _objectCreation = "122557617152015143557812";
-							- _umlDependencyID = "2498";
+							- _objectCreation = "422445631820151723289842";
+							- _umlDependencyID = "2505";
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -97,8 +97,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						{ IArgument 
 							- _id = GUID 8329b591-9c02-4ed0-a2a4-dd802c079f27;
 							- _name = "uiSensor2";
-							- _objectCreation = "122557817152015143555812";
-							- _umlDependencyID = "2499";
+							- _objectCreation = "422445831820151723287842";
+							- _umlDependencyID = "2506";
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -113,8 +113,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						{ IArgument 
 							- _id = GUID 23d6471a-9669-4290-9d56-64a94e00afa6;
 							- _name = "uiSensor3";
-							- _objectCreation = "122558017152015143553812";
-							- _umlDependencyID = "2491";
+							- _objectCreation = "422446031820151723285842";
+							- _umlDependencyID = "2498";
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -129,8 +129,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						{ IArgument 
 							- _id = GUID 8a2b91d9-b34a-4a91-84be-323bc9a48fd7;
 							- _name = "uiSensor4";
-							- _objectCreation = "122558217152015143551812";
-							- _umlDependencyID = "2492";
+							- _objectCreation = "422446231820151723283842";
+							- _umlDependencyID = "2499";
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -145,8 +145,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						{ IArgument 
 							- _id = GUID dd63c8c6-ea37-492c-bf4f-0b1dc097c745;
 							- _name = "uiSensor5";
-							- _objectCreation = "122558417152015143549812";
-							- _umlDependencyID = "2502";
+							- _objectCreation = "422446431820151723281842";
+							- _umlDependencyID = "2500";
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";
@@ -161,8 +161,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						{ IArgument 
 							- _id = GUID 8006d43d-ed86-4920-9651-33e63d2a1093;
 							- _name = "uiSensor6";
-							- _objectCreation = "122558617152015143547812";
-							- _umlDependencyID = "2503";
+							- _objectCreation = "422446631820151723279842";
+							- _umlDependencyID = "2510";
 							- _typeOf = { IHandle 
 								- _m2Class = "IType";
 								- _filename = "PredefinedTypesC++.sbs";

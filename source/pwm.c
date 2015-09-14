@@ -21,8 +21,8 @@
 /* ************************************************ */
 /* Method name: 	   pwm_initPwm					*/
 /* Method description: initialize the PWM configs   */
-/* Input params:	   ucDevice => PWM_COOLER       */
-/*                              => PWM_HEATER       */
+/* Input params:	   ucDevice => PWM_MT1          */
+/*                              => PWM_MT2          */
 /* Outpu params:	   n/a 							*/
 /* ************************************************ */
 void pwm_initPwm(unsigned char ucDevice)
@@ -36,14 +36,14 @@ void pwm_initPwm(unsigned char ucDevice)
 	 * Target is built to use CCP2 PWM module to
 	 * activate the cooler
 	 */
-	if(PWM_COOLER == ucDevice)
+	if(PWM_MT1 == ucDevice)
 	{
 		/* configure initial duty cycle */
   		pwm_setDutyCycle(PWM_INIT_DC, ucDevice);
 	
-		/* configure the COOLER direction */ 
-		COOLER = 0x0;
-		COOLER_DIR = OUTPUT;
+		/* configure the MT1 direction */ 
+		ENABLE_12 = 0x0;
+		ENABLE_12_DIR = OUTPUT;
 	
 		/* CCPxM3:CCPxM2 = 11 => PWM mode */
 		CCP2CON |= PWM_MODE_MASK;
@@ -53,14 +53,14 @@ void pwm_initPwm(unsigned char ucDevice)
 	 * Target is built to use CCP1 PWM module to
 	 * activate the heater
 	 */
-	if(PWM_HEATER == ucDevice)
+	if(PWM_MT2 == ucDevice)
 	{
 		/* configure initial duty cycle */
   		pwm_setDutyCycle(PWM_INIT_DC, ucDevice);
 	
-		/* configure the COOLER direction */ 
-		HEATER = 0x0;
-		HEATER_DIR = OUTPUT;
+		/* configure the MT2 direction */ 
+		ENABLE_34 = 0x0;
+		ENABLE_34_DIR = OUTPUT;
 	
 		/* CCPxM3:CCPxM2 = 11 => PWM mode */
 		CCP1CON |= PWM_MODE_MASK;
@@ -75,27 +75,28 @@ void pwm_initPwm(unsigned char ucDevice)
 /* ************************************************ */
 /* Method name: 	   pwm_setDutyCycle				*/
 /* Method description: configure PWM duty cycle     */
-/* Input params:	   uiDutyCycle => duty cyle value*/
+/* Input params:	   uiDutyCycle =>duty cyle value*/
 /*                     from 0 to 2^10 -1			*/
-/*              	   ucDevice => PWM_COOLER       */
-/*                              => PWM_HEATER       */
+/*              	   ucDevice => PWM_MT1          */
+/*                              => PWM_MT2          */
 /* Outpu params:	   n/a 							*/
 /* ************************************************ */
 void pwm_setDutyCycle(const unsigned int uiDutyCycle,
 					  unsigned char ucDevice)
 {
-	/* cooler */
-	if(PWM_COOLER == ucDevice)
+	/* MT1 */
+	if(PWM_MT1 == ucDevice)
 	{
 		CCPR2L = ((uiDutyCycle & PWM_DC_MASK) >> PWM_DC_SHIFT);
   		CCP2CONbits.DC2B = (uiDutyCycle & PWM_DC_SHIFT);
  	}
  	
- 	/* heater */
-	if(PWM_HEATER == ucDevice)
+ 	/* MT2 */
+	if(PWM_MT2 == ucDevice)
 	{
 		CCPR1L = ((uiDutyCycle & PWM_DC_MASK) >> PWM_DC_SHIFT);
   		CCP1CONbits.DC1B = (uiDutyCycle & PWM_DC_SHIFT);
  	}
- 	
+//COOLER -> MT1 	HEATER -> MT2 	
 }
+

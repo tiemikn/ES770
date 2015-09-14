@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 	- _id = GUID dae78f43-4d58-477c-a555-f712bd469311;
 	- _myState = 8192;
 	- _name = "_Main";
-	- _objectCreation = "162127718120151723350816";
-	- _umlDependencyID = "2071";
+	- _objectCreation = "422454231820151723203842";
+	- _umlDependencyID = "2066";
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "";
@@ -21,15 +21,15 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _id = GUID 5578f5bc-db0b-4283-a6ff-a88eeab69af2;
 			- _myState = 10240;
 			- _name = "stereotype_1";
-			- _objectCreation = "162127918120151723348816";
-			- _umlDependencyID = "2848";
+			- _objectCreation = "422454431820151723201842";
+			- _umlDependencyID = "2834";
 			- _m2Classes = { IRPYRawContainer 
 				- size = 1;
 				- value = "PrimitiveOperation"; 
 			}
 		}
 	}
-	- weakCGTime = 8.18.2015::20:0:14;
+	- weakCGTime = 8.31.2015::20:8:31;
 	- strongCGTime = 8.12.2015::4:14:18;
 	- _defaultComposite = GUID d8c59e60-4886-4fb7-a06d-b1bdda4f03ca;
 	- _eventsBaseID = 4401;
@@ -40,9 +40,9 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _id = GUID d8c59e60-4886-4fb7-a06d-b1bdda4f03ca;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _objectCreation = "162128118120151723346816";
-			- _umlDependencyID = "2398";
-			- weakCGTime = 8.17.2015::17:39:3;
+			- _objectCreation = "422454631820151723199842";
+			- _umlDependencyID = "2411";
+			- weakCGTime = 8.18.2015::20:0:14;
 			- strongCGTime = 8.12.2015::4:14:18;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -54,17 +54,17 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 			- _id = GUID 3b625338-a8a7-43c4-b006-e35a96edaa68;
 			- _myState = 8192;
 			- _name = "es770";
-			- _objectCreation = "162128318120151723344816";
-			- _umlDependencyID = "1961";
+			- _objectCreation = "422454831820151723197842";
+			- _umlDependencyID = "1974";
 			- Dependencies = { IRPYRawContainer 
 				- size = 1;
 				- value = 
 				{ IDependency 
 					- _id = GUID ec94c62e-1c08-4eff-9244-fac4d8338e64;
 					- _myState = 2048;
-					- _name = "Seguiddor_Map";
-					- _objectCreation = "162128518120151723342816";
-					- _umlDependencyID = "2902";
+					- _name = "SeguiddorMap";
+					- _objectCreation = "422455031820151723195842";
+					- _umlDependencyID = "2811";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -314,8 +314,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						}
 					}
 					- _name = "Diag_Seq_Centro_Linha";
-					- _objectCreation = "162128718120151723340816";
-					- _umlDependencyID = "3653";
+					- _objectCreation = "422455231820151723193842";
+					- _umlDependencyID = "3657";
 					- _lastModifiedTime = "8.18.2015::19:50:31";
 					- _graphicChart = { CGIMscChart 
 						- vLadderMargin = 20;
@@ -1088,16 +1088,16 @@ Diagrama de Sequ\ência - Centro de Linha";
 					}
 					- m_pICollaboration = { ICollaboration 
 						- _id = GUID 4345e0f5-3611-4a86-bfc7-292e93641f23;
-						- _objectCreation = "162128918120151723338816";
-						- _umlDependencyID = "1596";
+						- _objectCreation = "422455431820151723191842";
+						- _umlDependencyID = "1591";
 						- ClassifierRoles = { IRPYRawContainer 
 							- size = 4;
 							- value = 
 							{ IClassifierRole 
 								- _id = GUID e0c540bd-4171-4990-a9d8-abc1879c6a35;
 								- _name = "main";
-								- _objectCreation = "162129118120151723336816";
-								- _umlDependencyID = "2008";
+								- _objectCreation = "422455631820151723189842";
+								- _umlDependencyID = "2021";
 								- m_eRoleType = CLASS;
 								- m_pBase = { IHandle 
 									- _m2Class = "";
@@ -1109,8 +1109,8 @@ Diagrama de Sequ\ência - Centro de Linha";
 							{ IClassifierRole 
 								- _id = GUID c73ab5c4-412e-4c8e-a52c-28bed749b217;
 								- _name = "sensor";
-								- _objectCreation = "162129318120151723334816";
-								- _umlDependencyID = "2253";
+								- _objectCreation = "422455831820151723187842";
+								- _umlDependencyID = "2266";
 								- m_eRoleType = CLASS;
 								- m_pBase = { IHandle 
 									- _m2Class = "";
@@ -1122,8 +1122,8 @@ Diagrama de Sequ\ência - Centro de Linha";
 							{ IClassifierRole 
 								- _id = GUID 9387f3b5-f003-4a04-aabe-a9445d6f8caf;
 								- _name = "ADC";
-								- _objectCreation = "162129518120151723332816";
-								- _umlDependencyID = "1787";
+								- _objectCreation = "422456031820151723185842";
+								- _umlDependencyID = "1791";
 								- m_eRoleType = CLASS;
 								- m_pBase = { IHandle 
 									- _m2Class = "";
@@ -1135,8 +1135,8 @@ Diagrama de Sequ\ência - Centro de Linha";
 							{ IClassifierRole 
 								- _id = GUID 0b723a68-fd57-4091-abc9-984927253b80;
 								- _name = "spline";
-								- _objectCreation = "162129718120151723330816";
-								- _umlDependencyID = "2238";
+								- _objectCreation = "422456231820151723183842";
+								- _umlDependencyID = "2242";
 								- m_eRoleType = CLASS;
 								- m_pBase = { IHandle 
 									- _m2Class = "";
@@ -1153,8 +1153,8 @@ Diagrama de Sequ\ência - Centro de Linha";
 								- _id = GUID 25ff83c2-0a8d-431f-b6d0-1f5ac024e3dc;
 								- _myState = 8192;
 								- _name = "sensor_getSensorData";
-								- _objectCreation = "162129918120151723328816";
-								- _umlDependencyID = "3689";
+								- _objectCreation = "422456431820151723181842";
+								- _umlDependencyID = "3684";
 								- m_szSequence = "1.";
 								- m_szActualArgs = "cSensorID:char";
 								- m_szReturnVal = "";
@@ -1183,8 +1183,8 @@ Diagrama de Sequ\ência - Centro de Linha";
 							{ IMessage 
 								- _id = GUID d58d6bcf-5ea6-459a-a87e-dfe6cda6c485;
 								- _name = "adc_startConvertion";
-								- _objectCreation = "162130118120151723326816";
-								- _umlDependencyID = "3590";
+								- _objectCreation = "422456631820151723179842";
+								- _umlDependencyID = "3612";
 								- m_szSequence = "2.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -1213,8 +1213,8 @@ Diagrama de Sequ\ência - Centro de Linha";
 							{ IMessage 
 								- _id = GUID 9e313d6f-234b-433e-a404-9583f1d7c2c1;
 								- _name = "adc_isAdcDone";
-								- _objectCreation = "162130318120151723324816";
-								- _umlDependencyID = "2843";
+								- _objectCreation = "422456831820151723177842";
+								- _umlDependencyID = "2865";
 								- m_szSequence = "3.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -1244,8 +1244,8 @@ Diagrama de Sequ\ência - Centro de Linha";
 								- _id = GUID 107dddb4-6b68-4759-bd23-c7108846416a;
 								- _myState = 2048;
 								- _name = "DONE";
-								- _objectCreation = "162130518120151723322816";
-								- _umlDependencyID = "1872";
+								- _objectCreation = "422457031820151723175842";
+								- _umlDependencyID = "1885";
 								- m_szSequence = "4.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -1274,8 +1274,8 @@ Diagrama de Sequ\ência - Centro de Linha";
 							{ IMessage 
 								- _id = GUID 8166e48a-c2ff-4a67-853d-bdb75a0a1b4d;
 								- _name = "adc_getValue";
-								- _objectCreation = "162130718120151723320816";
-								- _umlDependencyID = "2798";
+								- _objectCreation = "422457231820151723173842";
+								- _umlDependencyID = "2811";
 								- m_szSequence = "5.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -1305,8 +1305,8 @@ Diagrama de Sequ\ência - Centro de Linha";
 								- _id = GUID 4ac26db2-4346-4df5-908d-1bd39888f865;
 								- _myState = 2048;
 								- _name = "VALUE";
-								- _objectCreation = "162130918120151723318816";
-								- _umlDependencyID = "1968";
+								- _objectCreation = "422457431820151723171842";
+								- _umlDependencyID = "1972";
 								- m_szSequence = "6.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -1336,8 +1336,8 @@ Diagrama de Sequ\ência - Centro de Linha";
 								- _id = GUID a643644b-b433-412a-b714-0e971a4b194b;
 								- _myState = 2048;
 								- _name = "ARRAY_VALUE_6_SENSORES";
-								- _objectCreation = "162131118120151723316816";
-								- _umlDependencyID = "3307";
+								- _objectCreation = "422457631820151723169842";
+								- _umlDependencyID = "3329";
 								- m_szSequence = "7.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -1366,8 +1366,8 @@ Diagrama de Sequ\ência - Centro de Linha";
 							{ IMessage 
 								- _id = GUID 2f6fd494-457e-4937-8e29-c8638f82dbb8;
 								- _name = "spline_getCenter";
-								- _objectCreation = "162131318120151723314816";
-								- _umlDependencyID = "3253";
+								- _objectCreation = "422457831820151723167842";
+								- _umlDependencyID = "3275";
 								- m_szSequence = "8.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -1397,8 +1397,8 @@ Diagrama de Sequ\ência - Centro de Linha";
 								- _id = GUID 5d78d6bd-5336-4336-aeee-726c3d031f48;
 								- _myState = 2048;
 								- _name = "CENTER_POINT";
-								- _objectCreation = "162131518120151723312816";
-								- _umlDependencyID = "2516";
+								- _objectCreation = "422458031820151723165842";
+								- _umlDependencyID = "2529";
 								- m_szSequence = "9.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -1597,8 +1597,8 @@ Diagrama de Sequ\ência - Centro de Linha";
 						}
 					}
 					- _name = "Diag_Seq_Control";
-					- _objectCreation = "162131718120151723310816";
-					- _umlDependencyID = "3175";
+					- _objectCreation = "422458231820151723163842";
+					- _umlDependencyID = "3188";
 					- _lastModifiedTime = "8.18.2015::19:58:40";
 					- _graphicChart = { CGIMscChart 
 						- vLadderMargin = 20;
@@ -2547,16 +2547,16 @@ Diagrama de Sequ\ência - Controle";
 					}
 					- m_pICollaboration = { ICollaboration 
 						- _id = GUID 3c63c279-8762-40c6-9ce7-fada27f3e8ae;
-						- _objectCreation = "162131918120151723308816";
-						- _umlDependencyID = "1587";
+						- _objectCreation = "422458431820151723161842";
+						- _umlDependencyID = "1591";
 						- ClassifierRoles = { IRPYRawContainer 
 							- size = 8;
 							- value = 
 							{ IClassifierRole 
 								- _id = GUID 4ea2ac19-5c6f-46ed-a418-1e6b6e9fd08d;
 								- _name = "Main";
-								- _objectCreation = "162132118120151723306816";
-								- _umlDependencyID = "1967";
+								- _objectCreation = "422458631820151723159842";
+								- _umlDependencyID = "1989";
 								- m_eRoleType = CLASS;
 								- m_pBase = { IHandle 
 									- _m2Class = "";
@@ -2568,8 +2568,8 @@ Diagrama de Sequ\ência - Controle";
 							{ IClassifierRole 
 								- _id = GUID b2d9eedc-f92a-4b51-b781-47c56b366842;
 								- _name = "PI";
-								- _objectCreation = "162132318120151723304816";
-								- _umlDependencyID = "1731";
+								- _objectCreation = "422458831820151723157842";
+								- _umlDependencyID = "1753";
 								- m_eRoleType = CLASS;
 								- m_pBase = { IHandle 
 									- _m2Class = "";
@@ -2581,8 +2581,8 @@ Diagrama de Sequ\ência - Controle";
 							{ IClassifierRole 
 								- _id = GUID 6e14a47a-65c0-4269-baf6-65c08699e3c7;
 								- _name = "PID L";
-								- _objectCreation = "162132518120151723302816";
-								- _umlDependencyID = "1875";
+								- _objectCreation = "422459031820151723155842";
+								- _umlDependencyID = "1888";
 								- m_eRoleType = CLASS;
 								- m_pBase = { IHandle 
 									- _m2Class = "";
@@ -2594,8 +2594,8 @@ Diagrama de Sequ\ência - Controle";
 							{ IClassifierRole 
 								- _id = GUID 285d27f7-9a80-4bbb-a37f-039c78fc28c9;
 								- _name = "PID R";
-								- _objectCreation = "162132718120151723300816";
-								- _umlDependencyID = "1881";
+								- _objectCreation = "422459231820151723153842";
+								- _umlDependencyID = "1894";
 								- m_eRoleType = CLASS;
 								- m_pBase = { IHandle 
 									- _m2Class = "";
@@ -2607,8 +2607,8 @@ Diagrama de Sequ\ência - Controle";
 							{ IClassifierRole 
 								- _id = GUID bec9d3d3-cf91-4b41-9928-eaa670fe8f51;
 								- _name = "SPEED L";
-								- _objectCreation = "162132918120151723298816";
-								- _umlDependencyID = "2041";
+								- _objectCreation = "422459431820151723151842";
+								- _umlDependencyID = "2036";
 								- m_eRoleType = CLASS;
 								- m_pBase = { IHandle 
 									- _m2Class = "";
@@ -2620,8 +2620,8 @@ Diagrama de Sequ\ência - Controle";
 							{ IClassifierRole 
 								- _id = GUID c54bc470-81ef-4d65-9169-fc3bbe430d06;
 								- _name = "SPEED R";
-								- _objectCreation = "162133118120151723296816";
-								- _umlDependencyID = "2038";
+								- _objectCreation = "422459631820151723149842";
+								- _umlDependencyID = "2051";
 								- m_eRoleType = CLASS;
 								- m_pBase = { IHandle 
 									- _m2Class = "";
@@ -2633,8 +2633,8 @@ Diagrama de Sequ\ência - Controle";
 							{ IClassifierRole 
 								- _id = GUID ab5a5a90-df67-42ee-b3b2-1960b5cfc6a5;
 								- _name = "PWM_L";
-								- _objectCreation = "162133318120151723294816";
-								- _umlDependencyID = "2002";
+								- _objectCreation = "422459831820151723147842";
+								- _umlDependencyID = "2015";
 								- m_eRoleType = CLASS;
 								- m_pBase = { IHandle 
 									- _m2Class = "";
@@ -2646,8 +2646,8 @@ Diagrama de Sequ\ência - Controle";
 							{ IClassifierRole 
 								- _id = GUID bc987fbf-7d5a-4d63-85ab-01f99c30b47c;
 								- _name = "PWM_R";
-								- _objectCreation = "162133518120151723292816";
-								- _umlDependencyID = "2008";
+								- _objectCreation = "422460031820151723145842";
+								- _umlDependencyID = "2003";
 								- m_eRoleType = CLASS;
 								- m_pBase = { IHandle 
 									- _m2Class = "";
@@ -2664,8 +2664,8 @@ Diagrama de Sequ\ência - Controle";
 								- _id = GUID d5a7a555-839c-4589-849c-e38174a67639;
 								- _myState = 8192;
 								- _name = "control_PidUpdate";
-								- _objectCreation = "162133718120151723290816";
-								- _umlDependencyID = "3347";
+								- _objectCreation = "422460231820151723143842";
+								- _umlDependencyID = "3342";
 								- m_szSequence = "1.";
 								- m_szActualArgs = " CENTER_POINT";
 								- m_szReturnVal = "";
@@ -2695,8 +2695,8 @@ Diagrama de Sequ\ência - Controle";
 								- _id = GUID 766258e9-462a-4dcd-9a65-9463a4f9e35c;
 								- _myState = 8192;
 								- _name = "control_PidUpdateL";
-								- _objectCreation = "162133918120151723288816";
-								- _umlDependencyID = "3432";
+								- _objectCreation = "422460431820151723141842";
+								- _umlDependencyID = "3418";
 								- m_szSequence = "2.";
 								- m_szActualArgs = "REF";
 								- m_szReturnVal = "";
@@ -2726,8 +2726,8 @@ Diagrama de Sequ\ência - Controle";
 								- _id = GUID e3f09272-9d53-4475-b822-bea6b080ccba;
 								- _myState = 8192;
 								- _name = "control_PidUpdateR";
-								- _objectCreation = "162134118120151723286816";
-								- _umlDependencyID = "3429";
+								- _objectCreation = "422460631820151723139842";
+								- _umlDependencyID = "3433";
 								- m_szSequence = "5.";
 								- m_szActualArgs = "REF";
 								- m_szReturnVal = "";
@@ -2756,8 +2756,8 @@ Diagrama de Sequ\ência - Controle";
 							{ IMessage 
 								- _id = GUID a1b65c02-9b96-4d96-93d4-cce2d6b65a83;
 								- _name = "speed_getSpeed";
-								- _objectCreation = "162134318120151723284816";
-								- _umlDependencyID = "3028";
+								- _objectCreation = "422460831820151723137842";
+								- _umlDependencyID = "3032";
 								- m_szSequence = "3.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -2786,8 +2786,8 @@ Diagrama de Sequ\ência - Controle";
 							{ IMessage 
 								- _id = GUID 873df0e1-6cc6-4e8e-a9ea-a63d91f0de93;
 								- _name = "speed_getSpeed";
-								- _objectCreation = "162134518120151723282816";
-								- _umlDependencyID = "3028";
+								- _objectCreation = "422461031820151723135842";
+								- _umlDependencyID = "3023";
 								- m_szSequence = "6.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -2817,8 +2817,8 @@ Diagrama de Sequ\ência - Controle";
 								- _id = GUID b2da5482-a338-4409-9c04-7dff19f49995;
 								- _myState = 2048;
 								- _name = "SPEED_R";
-								- _objectCreation = "162134718120151723280816";
-								- _umlDependencyID = "2133";
+								- _objectCreation = "422461231820151723133842";
+								- _umlDependencyID = "2128";
 								- m_szSequence = "7.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -2848,8 +2848,8 @@ Diagrama de Sequ\ência - Controle";
 								- _id = GUID d9af9e6b-b2bc-4278-8f45-6b96aef35a48;
 								- _myState = 2048;
 								- _name = "SPEED_L";
-								- _objectCreation = "162134918120151723278816";
-								- _umlDependencyID = "2136";
+								- _objectCreation = "422461431820151723131842";
+								- _umlDependencyID = "2122";
 								- m_szSequence = "4.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -2878,8 +2878,8 @@ Diagrama de Sequ\ência - Controle";
 							{ IMessage 
 								- _id = GUID 0dc8f029-1352-44a0-a9c3-296f7bec07b9;
 								- _name = "pwm_setDutyCycle";
-								- _objectCreation = "162135118120151723276816";
-								- _umlDependencyID = "3272";
+								- _objectCreation = "422461631820151723129842";
+								- _umlDependencyID = "3276";
 								- m_szSequence = "8.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -2908,8 +2908,8 @@ Diagrama de Sequ\ência - Controle";
 							{ IMessage 
 								- _id = GUID 1ec3a723-a78f-4676-abdb-f77ed70f876a;
 								- _name = "pwm_setDutyCycle";
-								- _objectCreation = "162135318120151723274816";
-								- _umlDependencyID = "3272";
+								- _objectCreation = "422461831820151723127842";
+								- _umlDependencyID = "3276";
 								- m_szSequence = "9.";
 								- m_szActualArgs = "";
 								- m_szReturnVal = "";
@@ -2939,7 +2939,7 @@ Diagrama de Sequ\ência - Controle";
 					}
 				}
 			}
-			- weakCGTime = 8.18.2015::20:1:5;
+			- weakCGTime = 8.31.2015::20:8:31;
 			- strongCGTime = 8.17.2015::17:28:23;
 			- Operations = { IRPYRawContainer 
 				- size = 2;
@@ -2948,8 +2948,8 @@ Diagrama de Sequ\ência - Controle";
 					- _id = GUID f97cbab4-4c03-425c-9c7f-7ba577385931;
 					- _myState = 8192;
 					- _name = "main";
-					- _objectCreation = "162135518120151723272816";
-					- _umlDependencyID = "2008";
+					- _objectCreation = "422462031820151723125842";
+					- _umlDependencyID = "2003";
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -2972,8 +2972,8 @@ Diagrama de Sequ\ência - Controle";
 				{ IReception 
 					- _id = GUID d261eb7f-a5c3-4f09-86ed-0ec01e1351e5;
 					- _myState = 8192;
-					- _objectCreation = "162135718120151723270816";
-					- _umlDependencyID = "1587";
+					- _objectCreation = "422462231820151723123842";
+					- _umlDependencyID = "1582";
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -2992,8 +2992,8 @@ Diagrama de Sequ\ência - Controle";
 					- _id = GUID 854515a2-3960-412a-9bda-a06481239bb6;
 					- _myState = 10240;
 					- _name = "statechart_4";
-					- _objectCreation = "162135918120151723268816";
-					- _umlDependencyID = "2818";
+					- _objectCreation = "422462431820151723121842";
+					- _umlDependencyID = "2804";
 					- _lastID = 11;
 					- weakCGTime = 8.18.2015::20:1:5;
 					- strongCGTime = 8.17.2015::17:28:23;
@@ -3010,12 +3010,12 @@ Diagrama de Sequ\ência - Controle";
 							- _id = GUID 39bb83b9-c5b0-4677-9702-a816cb755d2f;
 							- _myState = 2048;
 							- _name = "transition_3";
-							- _objectCreation = "162136118120151723266816";
-							- _umlDependencyID = "2832";
+							- _objectCreation = "422462631820151723119842";
+							- _umlDependencyID = "2836";
 							- _itsLabel = { ILabel 
 								- _id = GUID 3a3932f4-4f2a-4b60-bf90-1e06ca516642;
-								- _objectCreation = "162136318120151723264816";
-								- _umlDependencyID = "1587";
+								- _objectCreation = "422462831820151723117842";
+								- _umlDependencyID = "1591";
 								- _itsTrigger = NULL;
 								- _itsGuard = NULL;
 								- _itsAction = NULL;
@@ -3028,12 +3028,12 @@ Diagrama de Sequ\ência - Controle";
 							- _id = GUID c0d01f44-1de4-4ca8-be17-b37b13197a03;
 							- _myState = 2048;
 							- _name = "defaulttransition_9";
-							- _objectCreation = "162136518120151723262816";
-							- _umlDependencyID = "3579";
+							- _objectCreation = "422463031820151723115842";
+							- _umlDependencyID = "3574";
 							- _itsLabel = { ILabel 
 								- _id = GUID f1a73355-f6bf-4b7b-b229-1630a0dc6e77;
-								- _objectCreation = "162136718120151723260816";
-								- _umlDependencyID = "1587";
+								- _objectCreation = "422463231820151723113842";
+								- _umlDependencyID = "1582";
 								- _itsTrigger = NULL;
 								- _itsGuard = NULL;
 								- _itsAction = NULL;
@@ -3047,16 +3047,16 @@ Diagrama de Sequ\ência - Controle";
 							- _id = GUID 9bb0cb47-abfa-4201-8f5d-aab514d18a0a;
 							- _myState = 2048;
 							- _name = "transition_10";
-							- _objectCreation = "162136918120151723258816";
-							- _umlDependencyID = "2887";
+							- _objectCreation = "422463431820151723111842";
+							- _umlDependencyID = "2873";
 							- _itsLabel = { ILabel 
 								- _id = GUID 960eb354-3055-4ed4-9f0b-0d6d166debc9;
-								- _objectCreation = "162137118120151723256816";
-								- _umlDependencyID = "1587";
+								- _objectCreation = "422463631820151723109842";
+								- _umlDependencyID = "1591";
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID 40895858-b662-47bb-930d-9ef0a8c1ac6b;
-									- _objectCreation = "162137318120151723254816";
-									- _umlDependencyID = "1587";
+									- _objectCreation = "422463831820151723107842";
+									- _umlDependencyID = "1591";
 									- _body = "Wait_30s";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -3077,32 +3077,32 @@ Diagrama de Sequ\ência - Controle";
 						- value = 
 						{ IState 
 							- _id = GUID aa7aaf52-7a83-4863-b873-4496c5ba071b;
-							- _objectCreation = "162137518120151723252816";
-							- _umlDependencyID = "1587";
+							- _objectCreation = "422464031820151723105842";
+							- _umlDependencyID = "1582";
 							- _parent = ;
 							- _defaultTrans = GUID c0d01f44-1de4-4ca8-be17-b37b13197a03;
 						}
 						{ IState 
 							- _id = GUID 50fd598b-8840-44d7-8cab-e681d8262bbb;
 							- _name = "config";
-							- _objectCreation = "162137718120151723250816";
-							- _umlDependencyID = "2217";
+							- _objectCreation = "422464231820151723103842";
+							- _umlDependencyID = "2212";
 							- _parent = GUID aa7aaf52-7a83-4863-b873-4496c5ba071b;
 							- _defaultTrans = ;
 						}
 						{ IState 
 							- _id = GUID d821614f-a7a8-42b5-b5b1-4ccc10a5323d;
 							- _name = "calibracao";
-							- _objectCreation = "162137918120151723248816";
-							- _umlDependencyID = "2621";
+							- _objectCreation = "422464431820151723101842";
+							- _umlDependencyID = "2607";
 							- _parent = GUID aa7aaf52-7a83-4863-b873-4496c5ba071b;
 							- _defaultTrans = ;
 						}
 						{ IState 
 							- _id = GUID 48e9ff43-b088-4045-abd0-140ef2ca1acb;
 							- _name = "loop";
-							- _objectCreation = "162138118120151723246816";
-							- _umlDependencyID = "2029";
+							- _objectCreation = "422464631820151723099842";
+							- _umlDependencyID = "2042";
 							- _parent = GUID aa7aaf52-7a83-4863-b873-4496c5ba071b;
 							- _defaultTrans = ;
 						}
@@ -3256,8 +3256,8 @@ Diagrama de Sequ\ência - Controle";
 							}
 						}
 						- _name = "statechartdiagram_0";
-						- _objectCreation = "162138318120151723244816";
-						- _umlDependencyID = "3530";
+						- _objectCreation = "422464831820151723097842";
+						- _umlDependencyID = "3543";
 						- _lastModifiedTime = "8.18.2015::20:1:5";
 						- _graphicChart = { CGIStateChart 
 							- _id = GUID 7d3cfbf1-0326-46fd-802f-df46e475a9bc;
@@ -3822,8 +3822,8 @@ Diagrama de m\áquina de estados - funcionamento geral ";
 					- _id = GUID 78b6fc1f-76ca-48d1-a361-20938b6fa7f2;
 					- _myState = 10240;
 					- _name = "itsSensor";
-					- _objectCreation = "162138518120151723242816";
-					- _umlDependencyID = "2557";
+					- _objectCreation = "422465031820151723095842";
+					- _umlDependencyID = "2561";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -3844,8 +3844,8 @@ Diagrama de m\áquina de estados - funcionamento geral ";
 					- _id = GUID a17a04c5-61de-4f8b-a6dc-b454019f0095;
 					- _myState = 10240;
 					- _name = "itsSpline";
-					- _objectCreation = "162138718120151723240816";
-					- _umlDependencyID = "2542";
+					- _objectCreation = "422465231820151723093842";
+					- _umlDependencyID = "2546";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -3866,8 +3866,8 @@ Diagrama de m\áquina de estados - funcionamento geral ";
 					- _id = GUID 47ed8f92-5ec6-4c8e-884b-fee79fcffba5;
 					- _myState = 10240;
 					- _name = "itsControl";
-					- _objectCreation = "162138918120151723238816";
-					- _umlDependencyID = "2669";
+					- _objectCreation = "422465431820151723091842";
+					- _umlDependencyID = "2664";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -3888,8 +3888,8 @@ Diagrama de m\áquina de estados - funcionamento geral ";
 					- _id = GUID 707c9524-fc05-4d1d-a611-0deb43c09d59;
 					- _myState = 10240;
 					- _name = "itsSpeed";
-					- _objectCreation = "162139118120151723236816";
-					- _umlDependencyID = "2420";
+					- _objectCreation = "422465631820151723089842";
+					- _umlDependencyID = "2433";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -3910,8 +3910,8 @@ Diagrama de m\áquina de estados - funcionamento geral ";
 					- _id = GUID ad7a9648-0b5a-4d87-9531-7eccc7a00df3;
 					- _myState = 10240;
 					- _name = "itsAdc";
-					- _objectCreation = "162139318120151723234816";
-					- _umlDependencyID = "2187";
+					- _objectCreation = "422465831820151723087842";
+					- _umlDependencyID = "2200";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -3932,8 +3932,8 @@ Diagrama de m\áquina de estados - funcionamento geral ";
 					- _id = GUID 778a7088-bad7-4e0d-aa09-c622262adc12;
 					- _myState = 10240;
 					- _name = "itsPwm";
-					- _objectCreation = "162139518120151723232816";
-					- _umlDependencyID = "2231";
+					- _objectCreation = "422466031820151723085842";
+					- _umlDependencyID = "2235";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -3956,9 +3956,9 @@ Diagrama de m\áquina de estados - funcionamento geral ";
 		{ IClass 
 			- _id = GUID 039534db-3004-430c-992d-a671679b7754;
 			- _myState = 8192;
-			- _name = "Seguiddor_Map";
-			- _objectCreation = "162139718120151723230816";
-			- _umlDependencyID = "2902";
+			- _name = "SeguiddorMap";
+			- _objectCreation = "422466231820151723083842";
+			- _umlDependencyID = "2811";
 			- Stereotypes = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -3979,8 +3979,8 @@ Diagrama de m\áquina de estados - funcionamento geral ";
 				- _name = "Diag Blocos";
 				- _id = GUID 3ca6e712-0369-4872-8a93-c8c409edc908;
 			}
-			- weakCGTime = 8.17.2015::17:8:36;
-			- strongCGTime = 8.17.2015::17:8:36;
+			- weakCGTime = 8.31.2015::20:8:31;
+			- strongCGTime = 8.31.2015::20:8:31;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -3995,8 +3995,8 @@ Diagrama de m\áquina de estados - funcionamento geral ";
 			- _id = GUID 8f0ba2b8-8199-4546-9376-20f45212d5f1;
 			- _myState = 8192;
 			- _name = "Wait_30s";
-			- _objectCreation = "162139918120151723228816";
-			- _umlDependencyID = "2310";
+			- _objectCreation = "422466431820151723081842";
+			- _umlDependencyID = "2305";
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
